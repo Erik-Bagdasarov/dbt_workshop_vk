@@ -1,0 +1,12 @@
+dbtworkshop:
+  outputs:
+    dev:
+      dbname: postgres
+      host: localhost
+      pass: '1'
+      port: 5432
+      schema: dev
+      threads: 1
+      type: postgres
+      user: test
+  target: dev

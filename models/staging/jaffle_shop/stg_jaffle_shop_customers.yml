@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_jaffle_shop_customers
+    description: This model cleans up cusotmer data
+    columns:
+      - name: customer_id
+        description: Primary key
+        data_test:
+          - unique
+          - not_null
